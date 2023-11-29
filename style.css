@@ -1,0 +1,76 @@
+body {
+    background-image: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+
+.logo img {
+    width: 210px;
+    margin: 30px;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+    
+}
+
+.container img {
+    width: 659px;
+}
+
+.escrita{
+    color: white;
+    margin-top: -90px; 
+}
+
+.escrita h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    line-height: 65px;
+    padding: 30px 99px 30px 55px;
+}
+
+.escrita p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 0 0 40px 50px;
+    margin-top: -5px;
+}
+
+.escrita a button {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color:  hsl(257, 40%, 49%);
+    margin-left: 50px;
+    padding: 15px 63px;
+    font-size: 20px;
+    border-radius: 50px; 
+    transition: 0.3s ;
+}
+
+.escrita a button:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.icones {
+    display:flex;
+    justify-content: flex-end;
+    /* margin-right: 50px; */
+    margin: 25px 70px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram {
+    color: white;
+    margin-left: 20px;
+    padding: 15px;
+    border: 1px white solid;
+    border-radius: 100%;
+}
+
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover {
+    color:hsl(300, 69%, 71%);
+    border: 2px solid hsl(300, 69%, 71%);
+}

@@ -1,0 +1,56 @@
+@media (max-width: 375px) {
+    body{
+        background-image: url(images/bg-mobile.svg);
+    }
+    
+    .logo img {
+        width: 130px;
+        margin-bottom: 30px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container img {
+        width: 290px;
+        margin-right: 25px;
+    }
+
+    .escrita h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        line-height: normal;
+        text-align: center;
+        padding: 10px 0;
+        margin: 130px 0 8px 0;
+    }
+
+    .escrita p {
+        text-align: center;
+        font-size: 17px;
+        padding: 0px 20px;
+        margin-bottom: 30px;
+    
+    }
+
+    .escrita a button{
+        font-size: 15px;
+        padding: 10px 73px;
+    }
+
+    .icones {
+       display: flex;
+       justify-content: center;
+       margin-left: 50px;
+       
+    }
+
+    .fa-facebook-f, .fa-twitter, .fa-instagram {
+        font-size: 16px;
+        padding: 8px;
+        margin-top: 40px;
+    }
+
+}
